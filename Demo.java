@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
 public class Demo {
+     
+    record Person(String name, int age) {}
+	
     public static void main(String... args) {
        //BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
        Scanner sc = new Scanner(System.in);
@@ -17,5 +20,11 @@ public class Demo {
 	  }
 	  System.out.println();
        }
+
+
+       var khadija = new Person("Khadija", 22);
+
+       System.out.println(khadija.toString());
+
     }
 }
