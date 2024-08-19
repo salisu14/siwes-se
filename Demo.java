@@ -27,5 +27,7 @@ public class Demo {
         System.out.println(khadija.toString());
 
         sc.close();
+
+        System.out.println("Welcome to Github");
     }
 }
